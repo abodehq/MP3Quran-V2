@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Search Widget -->
+    
+    <item android:id="@+id/action_search"
+          android:icon="@drawable/ic_player_icon"
+          android:title="@string/action_search"
+          android:showAsAction="always"
+       />
+    
+ 
+   
+     
+    <!-- chapters -->
+    <item android:id="@+id/action_semi_chapters"
+          android:icon="@drawable/reciter_icon"
+          android:title="@string/chapters" 
+          android:showAsAction="always" />
+    
+      <!-- semi chapters -->
+    <item android:id="@+id/action_books"
+          android:icon="@drawable/ic_verses_icon"
+          android:title="@string/semi_chapters"
+          android:showAsAction="always" />
+    
+      <!-- semi chapters -->
+    <item android:id="@+id/fav"
+          android:icon="@drawable/ic_playlist"
+          android:title="@string/menu_notes"
+          android:showAsAction="never" />
+        <item
+        android:id="@+id/action_settings"
+      android:icon="@drawable/ic_downloaded_files"
+        android:showAsAction="never"
+        android:title="@string/menu_downloaded"/>
+        <!-- semi chapters -->
+        
+    <item android:id="@+id/exit"
+          android:icon="@drawable/exit"
+          android:title="@string/exit"
+             android:orderInCategory="100"
+          android:showAsAction="never" />
+    
+    
+</menu>

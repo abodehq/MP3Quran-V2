@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        
+        
+        <string name="add_no"> delete adds </string>
+         <string name="contact_subj"> Subject: </string>
+          <string name="contact_msg"> Message: </string>
+           <string name="contact_msg_hint"> Enter mail body </string>
+            <string name="contact_subj_hint"> Enter Subject </string>
+        
+    <string name="verses_pre"> sura </string>
+    <string name="verses_ayah_count_pre"> verses </string>
+     <string name="verses_ayah_count_small"> verses </string>
+      <string name="verses_activity_search"> search in the suras ... </string>
+  
+       <string name="reciters_pre">  </string>
+    <string name="reciters_ayah_count_pre"> verses </string>
+      <string name="reciters_activity_search"> search in the reciters ...</string>
+      
+    <string name="btn_send_message">Send Message</string>
+    
+    <string name="player_verses_pre"> We choose to you Sura   </string>
+    <string name="player_listen_pre"> for </string>
+      
+    <string name="downloader_empty_title">Download Manager</string>
+    <string name="downloader_empty_msg">Download manager help you to know the status of all the Suras that are currently downloading and what the time needs to finish.</string>
+    <string name="downloads_empty_title">You dont have any downloaded Suras yet !!</string>
+      <string name="downloads_empty_msg">Downloaded Suras help you to listen to the suras anytime and anyplace without need to have an internet connection, you can also edit,remove, and play these Suras.</string>
+   
+    
+    <!-- Activity titles -->    
+    <string name="activity_location_found">Location Found</string>
+    
+    <!-- Action Bar action items -->
+    <string name="action_search">Sarch</string>
+    <string name="action_location_found">Location Found</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_contacts">Contacts</string>
+    <string name="action_help">Help</string>
+    <string name="action_check_updates">Check for Updates</string>
+    
+    <!-- Search  -->
+    <string name="search_hint">بحث في صحيح مسلم ..</string>
+    
+    <string name="hadithNum">حديث #</string>
+    
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+   
+    
+     <string name="menu_main">Home</string>
+      <string name="menu_read">Quran Player</string>
+       <string name="menu_reciters">Reciters List</string>
+        <string name="menu_semi">Verses List</string>
+         <string name="menu_fav">Download Manager</string>
+          <string name="menu_notes">Play Lists</string>
+           <string name="menu_share">Share</string>
+             <string name="menu_settings">Settings</string>
+             <string name="menu_queue">Queue List</string>
+               <string name="menu_exit">Exit</string>
+                 <string name="menu_downloaded">Downloads</string>
+      <string name="release_version">Version 1.0.0</string>      
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >Quran Player</item>
+        <item >Reciters List</item>
+        <item >Verses List</item>
+         <item >Download Manager</item>
+         <item >Downloads</item>
+           <item >Play Lists</item>
+        <item >Share</item>
+         <item >Settings</item>
+          <item >Exit</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home_icon</item>
+        <item>@drawable/ic_player_icon</item>
+        <item>@drawable/reciter_icon</item>
+         <item>@drawable/ic_verses_icon</item>
+        <item>@drawable/ic_action_download</item>
+         <item>@drawable/ic_downloaded_files</item>
+        <item>@drawable/ic_playlist</item>
+        
+        <item>@drawable/ic_action_share</item>
+        <item>@drawable/ic_action_settings</item>
+         <item>@drawable/exit</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+<string name="book_name">مشغل القران الكريم</string>
+      <string name="exit">Exit</string>
+    <string name="app_name">مشغل القران الكريم </string>
+    <string name="app_exit">do you want to Exit?</string>
+    <string name="app_exit_confirm">OK</string>
+     <string name="app_exit_cancle">CANCEL</string>
+     <string name="fav">Favourite</string>
+      <string name="chapters_activity_search">البحث في الكتب ...</string>
+        <string name="semi_chapters_activity_search">البحث في الأبواب ...</string>
+         <string name="share_app_title"> EqraTech.co </string>
+     <string name="share_app_message"> قم يتحميل نسختك من برنامج حافظ قران الان </string>
+    <string name="chapter"> كتاب </string>
+     <string name="chapters"> الكتب </string>
+     <string name="semi_chapters"> الأبواب </string>
+     <string name="semi_chapter"> باب </string>
+     <string name="no">  CANCEL </string>
+     <string name="yes"> OK </string>
+     
+     <string name="loading_text"> Loading... </string>
+     
+      <string name="share_body">Download MP3 Quran Now !! it allows you to listen to great reciters without need to have intenet connection!! </string>
+ <string name="fav_add"> تم اضافة الحديث الى المفضلة </string>
+ <string name="fav_del"> تم حذف الحديث من المفضلة </string>
+  <string name="note_del"> تم حذف الملاحظة بنجاح </string>
+  <string name="note_add"> تم اضافة الملاحظة بنجاح </string>
+  <string name="fav_title"> مسح </string>
+    <string name="note_title"> مسح </string>
+  <string name="fav_empty"> لا يوجد أحاديث في المفضله !!  </string>
+    <string name="note_empty"> لا يوجد ملاحظات !!   </string>
+  <string name="fav_deletion"> هل أنت متأكد أنك تريد حذف الحديث من المفضلة ؟ </string>
+  <string name="note_deletion"> هل أنت متأكد أنك تريد حذف الملاحظة ؟ </string>
+   
+  <string name="fav_all_deletion"> هل أنت متأكد أنك تريد حذف المفضلة ؟ </string>
+  <string name="note_all_deletion"> هل أنت متأكد أنك تريد حذف جميع الملاحظات ؟  </string>
+  
+  <string name="fav_all_del"> تم حذف المفضلة بنجاح </string>
+   <string name="note_all_del"> تم حذف الملاحظات بنجاح </string>
+   
+   
+   <string name="note_sett_title">العنوان ( إختياري )</string>
+   <string name="note_sett_content">محتوى الملاحظة</string>
+    <string name="note_sett_color">لون الملاحظة</string>
+     <string name="note_sett_save">حفظ الملاحظة</string>
+     
+  <string name="copy_success"> تم نسخ الحديث بنجاح </string>
+  <string name="quick_action_read"> قراءة </string>
+  <string name="quick_action_copy"> نسخ </string>
+  <string name="quick_action_add_note"> أضف ملاحظة </string>
+   <string name="qa_delete_playlist"> Delete </string>
+    <string name="qa_delete_verse"> Delete </string>
+    <string name="qa_play_playlist"> Play All </string>
+     <string name="qa_rename_playlist"> Rename </string>
+      <string name="qa_play_verse"> Play </string>
+      <string name="qa_share"> Share </string>
+       <string name="qa_download"> Download </string>
+       <string name="qa_add_queue"> Add to queue </string>
+   <string name="qa_add_play_list"> Add to playlist </string>
+  <string name="color_picker_ok"> OK </string>
+   <string name="color_picker_cancel"> CANCEL </string>
+   <string name="color_picker_title"> Color Picker </string>
+   
+    <string name="setting_font_size"> حجم الخط </string>
+   <string name="all_settings"> كل الإعدادات </string>
+    <string name="low_light"> إضاءة خافتة </string>
+    <string name="hadith_bg_color"> لون خلفية الحديث </string>
+     <string name="hadith_font_color"> لون خط الحديث </string>
+    
+   
+     <string name="next_semi"> الباب التالي </string>
+     <string name="prev_semi"> الباب السابق </string>
+        <string name="new_play_list_label"> Playlist </string>
+         <string name="play_list_suras"> suras </string>
+      <string name="play_list_edit_ok"> OK </string>
+   <string name="play_list_edit_cancel"> CANCEL </string>
+   <string name="play_list_edit_title"> Rename </string>
+    <string name="play_list_new"> New playlist </string>
+   <string name="play_list_edit_to"> to </string>
+   <string name="play_list_remove_title"> Delete </string>
+   <string name="play_list_remove"> Do you want to delete this playlist??? </string>
+ <string name="no_play_list"> No playlists !! </string>
+<string name="play_list_title"> Add to playlist </string>
+<string name="play_list_verse_exist"> this sura already exist in this playlist!! </string>
+
+<string name="db_del_list_verse_s"> the sura is successfully deleted from the Playlist </string>
+<string name="db_del_list_verse_e"> error while deleting this sura !!   </string>
+
+<string name="db_ins_list_verse_s"> the sura is successfully added to the Playlist </string>
+<string name="db_ins_list_verse_e"> error while adding this sura   </string>
+
+<string name="play_ins_wait_list_s"> the sura is successfully added to the QUEUE </string>
+<string name="play_ins_wait_list_e"> this sura is already existed in the QUREUE   </string>
+<string name="play_remove_wait_list_s"> successfully delete the sura from the Queue </string>
+<string name="play_remove_wait_list_e"> Only one Sura exist!!   </string>
+
+
+<string name="db_up_list_s"> the playlist is enamed successfully </string>
+<string name="db_up_list_e"> Error while renaming the playlist  </string>
+
+<string name="db_ins_list_s"> new playlist is added successfully </string>
+<string name="db_ins_list_e"> Error in creating a new playlist!!    </string>
+
+<string name="db_del_list_s"> the selected playlist is deleted successfully</string>
+<string name="db_del_list_e"> Error in deleting the playlist!!  </string>
+
+<string name="player_error"> Error while play this sura !! </string>
+<string name="player_error_title"> Quran Player </string>
+
+<string name="interent_error"> Internet Connection </string>
+<string name="interent_error_title"> No internet connection !! </string>
+<string name="download_progress"> Download Sura </string>
+<string name="download_complete_pre"> sura is downloaded successfully  </string>
+<string name="download_complete_after">  </string>
+<string name="download_error"> we are currently downloading this sura !! </string>
+<string name="download_exist_pre"> you have already downloaded this sura </string>
+<string name="download_exist_after"> before !!  </string>
+<string name="download_start_pre"> we have added sura   </string>
+<string name="download_start_after"> to the download manager.  </string>
+<string name="download_success"> Internet Connection </string>
+<string name="downloading_file_error"> Error during downloading the sura</string>
+<string name="downloading_file_success"> sura is downloaded successfully </string>
+<string name="downloading_file_success_after"> for reciter </string>
+<string name="share_condition"> you need to download this sura first. </string>
+  <string name="share_title">Share Mp3 Quran</string>
+<string name="verses_remove"> Delete </string>
+<string name="folders_pre"> suras </string>
+   <string name="verses_remove_message"> Do you want to delete this sura from the phone ? </string>
+ <string name="reciters_remove_message"> Do you want to delete all the suras for this reciter ? </string>
+  <string name="reciters_remove_message_s">  all the suras are deleted successfully</string>
+    <string name="reciters_remove_message_e"> error while deleting reciters suras!!  </string>
+
+
+
+<string name="setting_language_title"> Language </string>
+<string name="setting_general"> General </string>
+<string name="setting_about_us"> About Us </string>
+<string name="setting_rate_us"> Give us 5 stars :) </string>
+<string name="setting_apps"> Other Apps </string>
+<string name="setting_share"> Share </string>
+<string name="setting_contact"> Contact Us </string>
+<string name="setting_full_screen_mode"> full screen mode </string>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@drawable/main_bg"
+    android:orientation="vertical"   
+>
+
+ <ListView
+     android:id="@+id/lv_reciters"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_above="@+id/admob_container"
+     android:layout_alignParentTop="true"
+     android:divider="@color/divider_color"
+     android:dividerHeight="1dp"
+     android:listSelector="@drawable/drawer_list_item" />
+
+    <RelativeLayout
+      android:id="@+id/admob_container"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true" >
+ 
+    </RelativeLayout>
+</RelativeLayout>

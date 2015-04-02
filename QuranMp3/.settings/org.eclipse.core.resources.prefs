@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/com/quranmp3/DownloaderFragment.java=UTF-8
+encoding//src/com/quranmp3/FilesFragment.java=UTF-8
+encoding//src/com/quranmp3/FoldersFragment.java=UTF-8
+encoding//src/com/quranmp3/PlayListsFragment.java=UTF-8
+encoding//src/com/quranmp3/RecitersActivity.java=UTF-8
+encoding//src/com/quranmp3/RecitersFragment.java=UTF-8
+encoding//src/com/quranmp3/VersesFragment.java=UTF-8
+encoding//src/com/quranmp3/controllers/AudioListManager.java=UTF-8
+encoding//src/com/quranmp3/controllers/PlayerManager.java=UTF-8
+encoding//src/com/quranmp3/controllers/SharedPreferencesManager.java=UTF-8
+encoding//src/com/quranmp3/controllers/UndoManager.java=UTF-8

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@drawable/main_bg"
+    android:orientation="vertical"   
+>
+
+ <ListView
+     android:id="@+id/lv_verses"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_above="@+id/admob_container"
+     android:layout_below="@+id/verses_Search"
+     android:divider="@color/divider_color"
+     android:dividerHeight="1dp"
+     android:listSelector="@drawable/drawer_list_item" />
+
+<RelativeLayout
+    android:id="@+id/reciter_header_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="60dip"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/list_selector2"
+    android:paddingLeft="5dp" >
+        
+        <!-- Playlist button -->
+
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:src="@drawable/islam" />
+
+        <TextView
+            android:id="@+id/txt_reciter_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/list_image"
+            android:paddingLeft="2dp"
+            android:text="Islam is the way of life"
+            android:textColor="#04b3d2"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/country_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/txt_reciter_name"
+            android:layout_below="@+id/txt_reciter_name"
+            android:layout_marginTop="2dp"
+            android:paddingLeft="2dp" />
+
+ <!-- Song Title -->
+<RelativeLayout
+        android:id="@+id/back_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+            android:paddingLeft="2dp"
+        
+        >
+
+	    <ImageView
+            android:id="@+id/btnReciterslist"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            
+            android:src="@drawable/ic_action_back" />
+
+	</RelativeLayout>
+    
+
+    </RelativeLayout>
+
+  <EditText
+      android:id="@+id/verses_Search"
+      android:layout_width="fill_parent"
+      android:layout_height="50dp"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@id/reciter_header_bg"
+      android:cursorVisible="true"
+      android:ems="10"
+      android:gravity="center_vertical|right"
+      android:height="40dp"
+      android:hint="@string/verses_activity_search"
+      android:textColor="@android:color/black"
+      android:color="#000" >
+
+  </EditText>
+
+  <View
+      android:id="@+id/hr0"
+      android:layout_width="fill_parent"
+      android:layout_height="1dp"
+      android:layout_below="@+id/reciter_header_bg"
+      android:background="@color/font_background_settings_divider" />
+   <RelativeLayout
+      android:id="@+id/admob_container"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true" >
+</RelativeLayout>
+</RelativeLayout>

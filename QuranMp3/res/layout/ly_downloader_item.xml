@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector2"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+	<!--  ListRow Left sied Thumbnail image -->
+	
+    
+	<!-- Title Of Song-->
+	<!-- Artist Name -->
+
+<TextView
+             android:layout_marginTop="10dp"
+            android:id="@+id/txt_reciter_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/reciter_icon"
+            android:paddingLeft="2dp"
+            android:text="Islam is the way of life"
+            android:textColor="#04b3d2"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+             android:layout_marginTop="2dp"
+            android:id="@+id/txt_verses_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txt_reciter_name"
+            android:layout_below="@+id/txt_reciter_name"
+            android:paddingLeft="2dp"
+            android:text="MP3 Quran"
+            android:textColor="#04b3d2"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+    
+
+    <ImageView
+        android:id="@+id/image_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_action_download" />
+
+ <ImageView
+     android:id="@+id/reciter_icon"
+     android:layout_width="30dp"
+     android:layout_height="30dp"
+     android:layout_alignParentLeft="true"
+     android:layout_centerVertical="true"
+     android:src="@drawable/ic_action_overflow" />
+
+    <TextView
+        android:id="@+id/txt_ayah_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/image_icon"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="27 verses"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:typeface="sans" />
+
+    <com.quranmp3.AnimatingProgressBar
+        android:id="@+id/pbDownload"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_below="@+id/txt_verses_name"
+        android:progress="0" />
+
+</RelativeLayout>

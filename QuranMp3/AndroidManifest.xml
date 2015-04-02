@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.quranmp3"
+    android:versionCode="16"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="14" />
+     <uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".DBActivity"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Myactionbar" >
+        
+          <!--This meta-data tag is required to use Google Play Services.-->
+      <!--   <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>--> 
+        
+        <activity
+            android:name="com.quranmp3.SplashScreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"
+                    />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity android:name="com.quranmp3.ChaptersActivity" />
+      <activity android:name="com.quranmp3.MainActivity" 
+          android:configChanges="locale"
+          >
+      <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".SearchActivity" />
+       </activity>
+      
+      <activity android:name="com.quranmp3.BookTabsActivity" />
+      <activity android:name="com.quranmp3.FavouriteActivity" /> 
+       <activity android:name="com.quranmp3.ExampleActivity" /> 
+       <activity android:name="com.quranmp3.AboutUsActivity" /> 
+       <activity android:name="com.quranmp3.SittingsActivity" /> 
+       <activity android:name="com.quranmp3.HadithActivity" /> 
+  <activity android:name="com.quranmp3.PlayerActivity" /> 
+  <activity android:name="com.quranmp3.PlayerPlayListActivity" />
+  <activity android:name="com.quranmp3.PlayListVersesActivity" /> 
+ <activity android:name="com.quranmp3.ContactusActivity" /> 
+  
+  
+  
+        <activity android:name="com.quranmp3.RecitersActivity" /> 
+       
+       
+       
+       <activity android:name="com.quranmp3.SearchActivity" >
+              <intent-filter>
+            <action android:name="android.intent.action.SEARCH" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+           <meta-data
+            android:name="android.app.searchable"
+            android:resource="@xml/searchable" /> 
+       </activity>
+       
+        
+        
+       
+
+              <receiver android:name="com.quranmp3.AlarmReceiverActivity"
+            >
+          
+        </receiver>
+        <service
+            android:name=".WidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+      
+        <service 
+            android:enabled="true"
+            android:name=".MyMediaPlayerService"
+            android:permission="com.quranmp3.MY_SERVICE_PERMISSION" />
+        <service 
+            android:enabled="true"
+            android:name=".DownloadService"
+            android:permission="com.quranmp3.MY_SERVICE_PERMISSION" />
+		 
+		
+		
+		 <receiver android:name=".MyWidgetProvider" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                      <action android:name="com.javatechig.intent.action.UPDATE_WIDGET" />
+                <action android:name="com.quranmp3.intent.action.WIDGET_ACTION_PLAY" />
+               <action android:name="com.quranmp3.intent.action.WIDGET_PLAY" />
+                <action android:name="com.quranmp3.intent.action.WIDGET_PAUSE" />
+           <action android:name="com.quranmp3.intent.action.WIDGET_START" />
+        <action android:name="com.quranmp3.intent.action.WIDGET_ACTION_NEXT" />
+       <action android:name="com.quranmp3.intent.action.WIDGET_ACTION_PREV" />
+        <action android:name="com.quranmp3.intent.action.WIDGET_INIT" />
+        <action android:name="com.quranmp3.intent.action.WIDGET_EXIT" />
+       
+           
+        
+                </intent-filter>
+<!-- 
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/demo_widget_provider" /> -->
+        </receiver>
+        
+        
+		 
+		  <activity android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+		              <activity
+      android:name="com.quranmp3.PurchaseItemActivity"
+      android:label="purchase"
+      android:screenOrientation="portrait" />
+    </application>
+    
+   
+</manifest>

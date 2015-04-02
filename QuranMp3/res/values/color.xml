@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <color name="main_theme_color">#33B5E5</color>
+    
+     <color name="drawer_list_item_hover">#73706F</color>
+     
+     <color name="main_theme_color1">#ebe2b2</color>
+      <color name="main_theme_color_light">#CF5747</color>
+        <color name="divider_color">#000</color>
+     
+     <color name="main_theme_bg_color">#000</color>
+     <color name="sub_theme_bg_color">#e8e8e8</color>
+     <color name="sub_theme_text_color">#c78b0a</color>
+      <color name="sub_theme_text_color_op2">#676767</color>
+     
+     <color name="main_theme_text_color">#000</color>
+    <color name="list_item_title">#222222</color>
+    <color name="list_background">#222222</color>
+    <color name="list_background_hover">#222222</color>
+     <color name="qa_item_bg">#222222</color>
+    <color name="list_background_pressed">#Eeeeee</color>
+     <color name="list_background_pressed2">#73706F</color>
+    <color name="list_divider">#000</color>
+    <color name="counter_text_bg">#E3DBD9</color>
+    <color name="counter_text_color">#000</color>
+    <color name="toast_text_color">#fff</color>
+    <color name="toast_bg_success_color">#ff34dd44</color>
+      <color name="toast_bg_info_color">#33B5E5</color>
+     <color name="toast_bg_error_color">#ff0000</color>
+     <color name="ly_settings_dark">#aaaaaa</color>
+       <color name="font_background_settings_divider">#cccccc</color>
+</resources>

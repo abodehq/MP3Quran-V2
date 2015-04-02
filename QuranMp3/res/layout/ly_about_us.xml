@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+ xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+   android:fillViewport="true">
+
+<LinearLayout
+    android:id="@+id/text_bg_color_ind"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/list_background_pressed2"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/ly_font_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <SeekBar
+            android:id="@+id/sb_font_size"
+            style="@style/SeekBarcomponent_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:max="39"
+            android:progress="18" />
+
+        <TextView
+            android:id="@+id/text_font_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sb_font_size"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="حجم الخط"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+    
+        <View
+        android:id="@+id/hr0"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/font_background_settings_divider"
+        android:paddingTop="3dp" />
+
+    <RelativeLayout
+        android:id="@+id/ly_low_light_color1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_selector3" >
+
+        <ImageView
+            android:id="@+id/cb_low_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/company_logo" />
+
+        <TextView
+            android:id="@+id/Text_low_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/cb_low_light"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Islamweb.net"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/hr1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/font_background_settings_divider"
+        android:paddingTop="3dp" />
+
+    <RelativeLayout
+        android:id="@+id/ly_text_font_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+         <TextView
+             android:id="@+id/Text_color_font_ind1"
+             android:layout_width="2dp"
+             android:layout_height="45dp"
+             android:layout_alignParentRight="true"
+             android:layout_centerVertical="true"
+             android:layout_marginLeft="10dp"
+             android:background="@color/main_theme_color"
+             android:gravity="center_vertical|center_horizontal"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:textColor="@android:color/black"
+             android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/TextView011"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/Text_color_font_ind1"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="اتبعنا على الفيسبوك"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/ImageView011"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_action_fb" />
+
+    </RelativeLayout>
+    
+      <View
+          android:id="@+id/hr6"
+          android:layout_width="fill_parent"
+          android:layout_height="1dp"
+          android:background="@color/font_background_settings_divider"
+          android:paddingTop="3dp" />
+
+    <RelativeLayout
+        android:id="@+id/ly_text_font_type1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+         <TextView
+             android:id="@+id/Text_color_font_ind11"
+             android:layout_width="2dp"
+             android:layout_height="45dp"
+             android:layout_alignParentRight="true"
+             android:layout_centerVertical="true"
+             android:layout_marginLeft="10dp"
+             android:background="@color/main_theme_color"
+             android:gravity="center_vertical|center_horizontal"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:textColor="@android:color/black"
+             android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/TextView011kljlkj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/Text_color_font_ind11"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="اتبعنا على تويتر"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/ImageView0111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_action_twitter" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/hr2"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:background="@android:color/black"
+        android:paddingTop="2dp" />
+
+    <RelativeLayout
+        android:id="@+id/ly_text_font_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_selector3" >
+
+        <TextView
+            android:id="@+id/Text_color_font_ind"
+            android:layout_width="2dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@color/main_theme_color"
+            android:gravity="center_vertical|center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/Text_color_font_ind"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="قيم تطبيق صحيح مسلم"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_action_important" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/hr3"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/font_background_settings_divider"
+        android:paddingTop="3dp" />
+
+    <RelativeLayout
+        android:id="@+id/ly_text_bg_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_selector3" >
+
+        <TextView
+            android:id="@+id/Text_color_bg_ind"
+            android:layout_width="2dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@color/main_theme_color"
+            android:gravity="center_vertical|center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/Text_color_bg_ind"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="برامجنا الاخرى"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/ImageView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_action_view_as_grid" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/hr4"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/font_background_settings_divider"
+        android:paddingTop="3dp" />
+
+ <RelativeLayout
+     android:id="@+id/ly_low_light_color"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:background="@drawable/list_selector3"
+     >
+
+        <TextView
+            android:id="@+id/Text_color_bg_ind3434"
+            android:layout_width="2dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@color/main_theme_color"
+            android:gravity="center_vertical|center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/TextView023434"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/Text_color_bg_ind3434"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="راسلنا"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/ImageView0223"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_action_email" />
+
+    </RelativeLayout>
+    
+  <View
+        android:id="@+id/hr44"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/font_background_settings_divider"
+        android:paddingTop="3dp" />
+
+ <RelativeLayout
+     android:id="@+id/ly_low_light_color11"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:background="@drawable/list_selector3"
+     >
+
+        <TextView
+            android:id="@+id/Text_color_bg_ind34341"
+            android:layout_width="2dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@color/main_theme_color"
+            android:gravity="center_vertical|center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/TextView0234341"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/Text_color_bg_ind34341"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="شارك "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/ImageView0223909090"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_action_share" />
+
+    </RelativeLayout>
+    
+    <View
+        android:id="@+id/hr7"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:background="@android:color/black"
+        android:paddingTop="2dp" />
+    <RelativeLayout
+        android:id="@+id/ly_low"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_selector3" >
+
+        <TextView
+            android:id="@+id/Text_color_bg_ind45"
+            android:layout_width="2dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@color/main_theme_color"
+            android:gravity="center_vertical|center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/TextView0245"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/Text_color_bg_ind45"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="قانوني"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+    </RelativeLayout>
+    
+     <View
+        android:id="@+id/hr8"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@@color/font_background_settings_divider"
+        android:paddingTop="2dp" />
+    <RelativeLayout
+        android:id="@+id/ly_use"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_selector3" >
+
+        <TextView
+            android:id="@+id/Text_color_bg_ind451"
+            android:layout_width="2dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@color/main_theme_color"
+            android:gravity="center_vertical|center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/TextView02451"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/Text_color_bg_ind451"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="شروط الاستخدام"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+       <View
+           android:id="@+id/hr9"
+           android:layout_width="fill_parent"
+           android:layout_height="1dp"
+           android:background="@color/font_background_settings_divider"
+           android:paddingTop="1dp" />
+
+    <RelativeLayout
+        android:id="@+id/ly_privacy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_selector3" >
+
+        <TextView
+            android:id="@+id/Text_color_bg_ind4511"
+            android:layout_width="2dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@color/main_theme_color"
+            android:gravity="center_vertical|center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/TextView024511"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/Text_color_bg_ind4511"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="سياسة الخصوصية"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+    </RelativeLayout>
+      
+    <View
+        android:id="@+id/hr5"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:background="@android:color/white"
+        android:paddingTop="3dp" />
+
+ <RelativeLayout
+     android:id="@+id/ly_all_settings"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:background="@color/main_theme_color"
+     android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/TextView02pokpokp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="إصدار 1.0.0"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>

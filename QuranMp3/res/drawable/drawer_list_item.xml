@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/ab_solid_myactionbar" android:state_activated="false"/>
+    <item android:drawable="@color/drawer_list_item_hover" android:state_pressed="true"/>
+    <item android:drawable="@color/drawer_list_item_hover" android:state_activated="true"/>
+
+</selector>
