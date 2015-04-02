@@ -50,12 +50,12 @@ Shuraim
 With English,and Arabic support.
 
 snap shots:
-![alt tag](https://raw.githubusercontent.com/abodehq/Huson-Almuslim-Android-v2/master/img1.png)
+![alt tag](https://raw.githubusercontent.com/abodehq/MP3Quran-V2/master/img1.png)
 
-![alt tag](https://raw.githubusercontent.com/abodehq/Huson-Almuslim-Android-v2/master/img2.png)
+![alt tag](https://raw.githubusercontent.com/abodehq/MP3Quran-V2/master/img2.png)
 
-![alt tag](https://raw.githubusercontent.com/abodehq/Huson-Almuslim-Android-v2/master/img3.png)
+![alt tag](https://raw.githubusercontent.com/abodehq/MP3Quran-V2/master/img3.png)
 
-![alt tag](https://raw.githubusercontent.com/abodehq/Huson-Almuslim-Android-v2/master/img4.png)
+![alt tag](https://raw.githubusercontent.com/abodehq/MP3Quran-V2/master/img4.png)
 
-![alt tag](https://raw.githubusercontent.com/abodehq/Huson-Almuslim-Android-v2/master/img5.png)
+![alt tag](https://raw.githubusercontent.com/abodehq/MP3Quran-V2/master/img5.png)
